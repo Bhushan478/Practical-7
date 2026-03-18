@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+</head>
+
+<body style="margin:0; font-family:Arial, sans-serif; background:linear-gradient(to right, #e0f7fa, #b2ebf2);">
+
+    <!-- Navigation Bar -->
+    <nav style="background-color:#004d40; padding:15px; text-align:center;">
+        <a href="#" style="color:white; margin:15px; text-decoration:none; font-weight:bold;">Home</a>
+        <a href="#bio" style="color:white; margin:15px; text-decoration:none; font-weight:bold;">Biography</a>
+        <a href="#achievements" style="color:white; margin:15px; text-decoration:none; font-weight:bold;">Achievements</a>
+        <a href="#contact" style="color:white; margin:15px; text-decoration:none; font-weight:bold;">Contact</a>
+    </nav>
+
+    <!-- Main Container -->
+    <div style="width:80%; margin:30px auto; padding:20px; background:white; border:2px solid #ccc; border-radius:10px;">
+
+        <!-- Header -->
+        <div style="text-align:center;">
+            <h1 style="color:#004d40;">Your Hero Name</h1>
+            <p style="font-style:italic; color:#555;">A Great Inspiration</p>
+        </div>
+
+        <!-- Profile Image -->
+        <div style="text-align:center;">
+            <img src="https://via.placeholder.com/200" alt="Profile Image"
+                 style="width:200px; border-radius:50%; border:4px solid #004d40; margin:20px;">
+        </div>
+
+        <!-- Biography Section -->
+        <div id="bio" style="margin-top:20px;">
+            <h2 style="color:#004d40; border-bottom:2px solid #ff9800; display:inline-block;">Biography</h2>
+            <p style="line-height:1.6; margin-top:10px;">
+                Write about the person's early life, education, and journey to success.
+                Highlight key moments that made them inspiring and influential.
+            </p>
+        </div>
+
+        <!-- Achievements Section -->
+        <div id="achievements" style="margin-top:20px;">
+            <h2 style="color:#004d40; border-bottom:2px solid #ff9800; display:inline-block;">Achievements</h2>
+            <ul style="margin-top:10px; line-height:1.6;">
+                <li>Major achievement or award</li>
+                <li>Important contribution to society</li>
+                <li>Recognition and honors</li>
+            </ul>
+        </div>
+
+        <!-- Legacy Section -->
+        <div style="margin-top:20px;">
+            <h2 style="color:#004d40; border-bottom:2px solid #ff9800; display:inline-block;">Legacy</h2>
+            <p style="line-height:1.6; margin-top:10px;">
+                Describe how this person continues to inspire people and the impact
+                they have left on the world.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact"
+        style="text-align:center; background-color:#004d40; color:white; padding:15px; border-top:3px solid #ff9800;">
+        <p>Created as a Tribute Page | © 2026</p>
+    </footer>
+
+</body>
+</html>
