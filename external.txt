@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2 class="logo">Tribute</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#bio">Biography</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container" id="home">
+
+        <!-- Header -->
+        <header>
+            <h1>Your Hero Name</h1>
+            <p class="tagline">An Inspiration to the World</p>
+        </header>
+
+        <!-- Profile Image -->
+        <section class="image-section">
+            <img src="https://via.placeholder.com/200" alt="Profile Image">
+        </section>
+
+        <!-- Biography -->
+        <section id="bio">
+            <h2>Biography</h2>
+            <p>
+                Write about the person's early life, education, and journey.
+                Highlight important events that shaped their success.
+            </p>
+        </section>
+
+        <!-- Achievements -->
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Major Award or Achievement 1</li>
+                <li>Major Award or Achievement 2</li>
+                <li>Major Contribution to Society</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Created as a Tribute Page | © 2026</p>
+    </footer>
+
+</body>
+</html>
